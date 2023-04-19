@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import PictCarousel from './components/PictCarousel.jsx';
+import Video from './components/Video.jsx';
+import React from 'react';
 import './App.css';
+import Quote from './components/Quote.jsx';
+import GridPage from './components/GridPage.jsx';
+import About from './components/About.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <header className="App-header">
+          <About/>
+          <Quote/>
+          <Video/>
+          <PictCarousel/>
+          <GridPage/>
+        </header>
+      </div>
+    </>
   );
 }
 

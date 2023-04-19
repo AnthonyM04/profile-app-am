@@ -7,14 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: darkgray;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +22,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  padding: 20px;
+}
+
+.grid-container {
+  font-family: 'Times New Ramen';
+  background-color: coral;
+}
+
+h2 {
+  color: salmon;
+}
+
+.grids {
+  background-color: #61dafb;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.carousel-container {
+  background-color: indianred;
+  background-image: src='./images/trol.jpeg' !important;
 }
