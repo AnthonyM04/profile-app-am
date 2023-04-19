@@ -45,5 +45,18 @@ body {
 
 .carousel-container {
   background-color: indianred;
-  background-image: src='./images/trol.jpeg' !important;
+  /* background-image: src='./images/trol.jpeg' !important; */
+}
+
+.hero-banner {
+  background-color: red;
+}
+
+.hero-text {
+  color: wheat;
+}
+
+.jack-nicholson {
+  width: 450px;
+  height: 75px;
 }
